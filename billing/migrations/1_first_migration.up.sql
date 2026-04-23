@@ -21,6 +21,7 @@ VALUES ('USD', 'United States Dollar'),
        ('CHF', 'Swiss Franc'),
        ('CNY', 'Chinese Yuan'),
        ('SEK', 'Swedish Krona'),
+       (code 'GEL', name 'Georgian Lari'),
        ('NZD', 'New Zealand Dollar');
 
 CREATE TYPE bill_status AS ENUM ('OPEN', 'CLOSED');
